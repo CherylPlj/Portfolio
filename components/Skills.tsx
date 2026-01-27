@@ -1,23 +1,37 @@
 export default function Skills() {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Web Development",
       skills: [
-        "React",
+        "C#",
+        "Python",
         "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "HTML/CSS",
-        "JavaScript",
+        "ASP.NET Core",
+        "MSSQL",
+        "PostgreSQL",
       ],
     },
     {
-      title: "Backend",
-      skills: ["Node.js", "Express", "Python", "REST APIs", "Database Design"],
+      title: "Technical Skills",
+      skills: [
+        "Database Management",
+        "Quality Assurance",
+        "Data Analytics",
+        "Excel",
+        "Power BI",
+        "UI Design",
+      ],
     },
     {
-      title: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "CI/CD", "Testing", "Agile"],
+      title: "Soft Skills & Tools",
+      skills: [
+        "Project Management",
+        "Problem-Solving",
+        "Team Collaboration",
+        "Time Management",
+        "Figma",
+        "Canva",
+      ],
     },
   ];
 

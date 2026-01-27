@@ -15,16 +15,27 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I'm a passionate developer with a love for creating innovative
-              solutions and beautiful user experiences. With expertise in modern
-              web technologies, I bring ideas to life through clean, efficient
-              code.
+              I'm a 4th-year BSIT student at Polytechnic University of the Philippines - 
+              Quezon City Campus, skilled in project management, web development, database 
+              management, and quality assurance. I'm willing to learn and able to adapt in 
+              different environments.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies,
-              contributing to open-source projects, or sharing knowledge with
-              the developer community.
+              Determined and hardworking, with a strong sense of responsibility and work ethic. 
+              I have experience leading teams and developing full-stack applications using 
+              technologies like C#, Python, Next.js, and MSSQL.
             </p>
+            <div className="pt-4 space-y-2">
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Education</h3>
+              <p className="text-gray-700 dark:text-gray-300">
+                <strong>Bachelor of Science in Information Technology</strong> (2022 - Present)<br />
+                Polytechnic University of the Philippines - Quezon City Campus
+              </p>
+              <p className="text-gray-700 dark:text-gray-300">
+                <strong>Science, Technology, Engineering, and Mathematics</strong> (2020 - 2022)<br />
+                Batasan Hills National Senior High School | With High Honors
+              </p>
+            </div>
             <div className="pt-4">
               <a
                 href="#contact"

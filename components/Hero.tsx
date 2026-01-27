@@ -12,15 +12,15 @@ export default function Hero() {
                 Hi, I'm{" "}
               </span>
               <span className="text-gray-900 dark:text-white">
-                Your Name
+                Cheryl Palaje
               </span>
             </h1>
             <h2 className="text-2xl md:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-4">
-              Full Stack Developer
+              Full Stack Developer & Project Manager
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
-              I create beautiful, functional, and user-centered digital
-              experiences. Welcome to my portfolio!
+              A 4th-year BSIT student skilled in project management, web development, 
+              database management, and quality assurance. Welcome to my portfolio!
             </p>
           </div>
 
