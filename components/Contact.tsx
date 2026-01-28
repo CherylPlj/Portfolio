@@ -42,15 +42,15 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 bg-gray-50 dark:bg-gray-900"
+      className="py-12 sm:py-16 lg:py-20 bg-gray-50 dark:bg-gray-900"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+        <div className="text-center mb-10 sm:mb-12 lg:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">
             Get In Touch
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
-          <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-4">
             I'm always open to discussing new projects, creative ideas, or
             opportunities to be part of your visions.
           </p>
@@ -58,22 +58,22 @@ export default function Contact() {
 
         <div className="max-w-2xl mx-auto">
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
                 Let's connect
               </h3>
-              <p className="text-gray-600 dark:text-gray-400 mb-8">
+              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-6 sm:mb-8">
                 Feel free to reach out if you're looking for a developer, have a
                 question, or just want to connect.
               </p>
             </div>
 
-            <div className="space-y-4">
-              <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+            <div className="space-y-3 sm:space-y-4">
+              <div className="flex items-start sm:items-center space-x-3 sm:space-x-4">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg
-                    className="w-6 h-6 text-white"
+                    className="w-5 h-5 sm:w-6 sm:h-6 text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -86,20 +86,20 @@ export default function Contact() {
                     />
                   </svg>
                 </div>
-                <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
+                <div className="min-w-0 flex-1">
+                  <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Email</p>
                   <a
                     href="mailto:cherylpalaje2@gmail.com"
-                    className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400"
+                    className="text-sm sm:text-base text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 break-words"
                   >
                     cherylpalaje2@gmail.com
                   </a>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+              <div className="flex items-center space-x-3 sm:space-x-4">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg
-                    className="w-6 h-6 text-white"
+                    className="w-5 h-5 sm:w-6 sm:h-6 text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -113,19 +113,19 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
+                  <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Phone</p>
                   <a
                     href="tel:09634817595"
-                    className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400"
+                    className="text-sm sm:text-base text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400"
                   >
                     09634817595
                   </a>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+              <div className="flex items-start sm:items-center space-x-3 sm:space-x-4">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg
-                    className="w-6 h-6 text-white"
+                    className="w-5 h-5 sm:w-6 sm:h-6 text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -144,27 +144,27 @@ export default function Contact() {
                     />
                   </svg>
                 </div>
-                <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Location</p>
-                  <p className="text-gray-900 dark:text-white">
+                <div className="min-w-0 flex-1">
+                  <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Location</p>
+                  <p className="text-sm sm:text-base text-gray-900 dark:text-white break-words">
                     Commonwealth, Quezon City, Metro Manila, Philippines
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="pt-8">
-              <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+            <div className="pt-6 sm:pt-8">
+              <h4 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">
                 Follow me
               </h4>
-              <div className="flex space-x-4">
+              <div className="flex flex-wrap gap-3 sm:gap-4">
                 {socialLinks.map((social, index) => (
                   <a
                     key={index}
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 hover:text-white transition-all duration-300"
+                    className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 hover:text-white transition-all duration-300"
                     aria-label={social.name}
                   >
                     {social.icon}
